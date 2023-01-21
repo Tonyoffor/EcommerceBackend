@@ -1,17 +1,51 @@
 # EcommerceBackend
 
+EcommerceBackend <br />
+
+
+  ## Description
+  This code application is for the back end of an ecommerce store with different products. The goal of this project was the make the database connections using MYSQL and test the results in insomnia. A functioning Express.js API was provided and I had to create the MYSQL connections to the database using sequalize, use the seed and scema commands to create and seed data. Finaly I am meant to test the create, update and delete route commands.
+  
+   <br />
+ 
+  ## Table of Contents
+  - [Title](#title)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+  ## Installation
+For this project I installed Node.js <br> Npm <br> Inquirer<br> Package.json <br> Express <br> MySQL2 <br> seed <br>
+
+## Usage
+This application is the blue print for a .
+
+[Click Me to see walkthrough](https://drive.google.com/file/d/1C3jw1AF9cEkjJMZ97-zUOQxX5LRf-ODD/view)  <br />
+## License
+
+This application is not covered by any license. 
+
+
+## Contributors
+In this I, Anthony Offor, was the primary contributor to the application; secondary contributor was Corey Yates the tutor during the program who helped me correct some errors in my code from time to time.
+
+## Testing
+In this project I tested my code in the terminal to see if there was an error in the code.
+
+## Questions
+If you have any further questions you can contact me on:<br />
+  -GitHub: [Tonyoffor](https://github.com/Tonyoffor)<br />
+<br />
+  -Email: tonyc.offor@gmail.com<br /><br />
+
+
+
+
+
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
-
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database

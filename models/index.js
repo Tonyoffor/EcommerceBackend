@@ -10,24 +10,27 @@ Product.belongsTo(Category,{
   onDelete:"CASCADE",
 
 });
+
+// Categories have many Products (one to many) it involves making 2 keys
 Category.hasMany(Product,{
   foreignKey:"category_id",
 })
 
-// Categories have many Products (one to many) it involves making 2 keys
+// Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag,{
   through:ProductTag,
   foreignKey:"product_id",
   
 })
-// Products belongToMany Tags (through ProductTag)
+
+// Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(ProductTag,{
   through:ProductTag,
   foreignKey:"tag_id",
 })
  
   
-// Tags belongToMany Products (through ProductTag)
+
 
 module.exports = {
   Product,
